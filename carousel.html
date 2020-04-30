@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/8e891e1c85.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS\styles.css">
+    <title>Carousel - Bootstrap Example Site 1</title>
+</head>
+<body>
+
+<!-------------------Navbar ------------------->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a href="#" class="navbar-brand">Carousel</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        
+    <div class="collapse navbar-collapse" id="collapsibleNav">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+        </ul>
+    
+    <form class="form-inline mt-2 mt-md-0 float-right">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+    </form>
+    </div>
+</nav>
+
+<!-------------------Carousel ------------------->
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+    <li class="active" data-target="carousel" data-slide-to="0"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+</ul>
+
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="carousel-caption">      
+            <h2>Example Heading 1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, inventore!</p>
+            <button class="btn btn-primary btn-lg"><a class="text-white" href="#">Sign Up</a></button>
+        </div>
+        <img src="https://source.unsplash.com/random/1920x500">
+    </div>
+</div>
+
+<div class="carousel-inner">
+    <div class="carousel-item">
+        <div class="carousel-caption">
+            <h2>Example Heading 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, inventore!</p>
+            <button class="btn btn-primary btn-lg"><a href="#">Sign Up</a></button>
+        </div>
+        <img src="https://source.unsplash.com/random/1920x500">
+    </div>
+</div>
+
+<div class="carousel-inner">
+    <div class="carousel-item">
+        <div class="carousel-caption">
+            <h2>Example Heading 3</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, inventore!</p>
+            <button class="btn btn-primary btn-lg"><a href="#">Sign Up</a></button>
+        </div>
+        <img src="https://source.unsplash.com/random/1920x500">
+    </div>
+</div>
+
+</div>
+
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+<!--------------------- Section Two ----------------------->
+
+<div class="container py-5">
+<div class="row">
+    <div class="col-lg-4 mb-4">
+        <img src="https://source.unsplash.com/random/140x140" class="rounded-circle">
+        <h2>Heading 1</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro aspernatur aut a minima vero ullam commodi eligendi sequi nisi soluta.</p>
+        <button class="btn btn-dark"> View Details <i class="fa fa-angle-double-right"></i></button>
+    </div>
+
+    <div class="col-lg-4 mb-4">
+        <img src="https://source.unsplash.com/random/140x140" class="rounded-circle">
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro aspernatur aut a minima vero ullam commodi eligendi sequi nisi soluta.</p>
+        <button class="btn btn-dark"> View Details <i class="fa fa-angle-double-right"></i></button>
+
+    </div>
+
+    <div class="col-lg-4 mb-4">
+        <img src="https://source.unsplash.com/random/140x140" class="rounded-circle">
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro aspernatur aut a minima vero ullam commodi eligendi sequi nisi soluta.</p>
+        <button class="btn btn-dark"> View Details <i class="fa fa-angle-double-right"></i></button>
+
+    </div>
+</div>
+<hr class="mt-4">
+
+
+</div>
+
+<!--------------------- Section Three ----------------------->
+
+<div class="container">
+<div class="row">
+    <div class="col">
+        <h2>First featurette heading.<br><span class="text-muted"> It'll blow your mind.</small></h2>
+        
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, deleniti ipsum? Necessitatibus optio unde odio quae libero ad, suscipit dolorum.</p>
+    </div>
+
+    <div class="col">
+<img src="https://source.unsplash.com/random/500x500">
+    </div>
+
+    <hr class="mb-4">
+
+</div>
+<!--------------------- Section Four ----------------------->
+
+<div class="container py-5">
+
+    <hr class="mb-4">
+
+    <div class="row">
+
+        <div class="col">
+            <img src="https://source.unsplash.com/random/500x500">
+        </div>
+
+        <div class="col">
+            <h2>Oh yeah, it's that good.<span class="text-muted"> See for yourself.</span></h2>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, deleniti ipsum? Necessitatibus optio unde odio quae libero ad, suscipit dolorum.</p>
+        </div>
+
+</div>
+    
+<!--------------------- Section Five----------------------->
+ 
+<div class="container">
+    <hr class="mb-4">
+
+    <div class="row">
+        <div class="col">
+            <h2>And lastly, this one.<span class="text-muted"> Checkmate.</span></h2>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, deleniti ipsum? Necessitatibus optio unde odio quae libero ad, suscipit dolorum.</p>
+        </div>
+    
+        <div class="col">
+    <img src="https://source.unsplash.com/random/500x500">
+        </div>
+    
+        <hr class="mb-4">
+    
+    </div>
+    
+    </div>
+
+</div>
+</body>
+</html>
